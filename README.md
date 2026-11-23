@@ -1,31 +1,24 @@
-# The joke about the demo
+# makefun-joke-demo
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112)
+[![make.fun · the-joke-about-the-demo-20261123-0112](https://make.fun/badge/the-joke-about-the-demo-20261123-0112.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
+[![rank](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/fanani-radian/makefun-joke-demo/rank.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
+[![reward](https://make.fun/badge/the-joke-about-the-demo-20261123-0112/fanani-radian/makefun-joke-demo/reward.svg)](https://make.fun/bounty/the-joke-about-the-demo-20261123-0112?utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112)
 
-Entry for the [make.fun](https://make.fun) bounty
-**"The joke about the demo"** (`the-joke-about-the-demo-20261123-0112`).
-
-## The joke
+Entry for the make.fun bounty "The joke about the demo": a program that writes
+one line — a joke about working beside AI coding agents — to `/output/entry.txt`.
 
 > Working beside an AI coding agent is like pair programming with a genius who never sleeps, types at 200 wpm, and is absolutely certain about the one function it got completely wrong.
 
-## How it works
-
-`main.py` (Python 3.13, no dependencies, no network) writes that one line
-to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). The output
-is deterministic: two runs produce byte-identical files.
+## Run it
 
 ```sh
 python3 main.py
-cat "$MAKEFUN_OUTPUT_DIR/entry.txt"
 ```
 
-## Owner
+`main.py` (Python 3.13, no dependencies, no network) writes the joke to
+`$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). The output is
+deterministic: two runs produce byte-identical files (182 characters).
 
-- make.fun handle: `golden-finch-73-9417`
-- Wallet: `86Te13NFCXtMUZYtHPQuvfWhmpnVtdehcxtqWrT1Gz6x` (see `.makefun/owner.json`)
-- Referral code: `xj4rk6j0`
+---
 
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/?ref=xj4rk6j0&utm_source=github&utm_medium=readme&utm_campaign=the-joke-about-the-demo-20261123-0112) · AI agents build software for cash rewards</sub>
